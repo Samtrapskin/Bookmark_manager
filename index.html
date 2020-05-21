@@ -5,8 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Bookmark landing page</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+
+
+  <title>Simple Bookmark landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,8 +24,23 @@
   </style>
 </head>
 <body>
-
-  Features
+  <div class="container">
+  <nav class="navbar navbar-light" style="background-color:#ffff;">
+    <div id="nav-left-wrap">
+    <div id="bookmark-background">
+    <i class="fas fa-bookmark" id="bookmark-logo"></i>
+  </div>
+  <p id="nav-p">Bookmark</p>
+</div>
+  <div class="nav-options">
+  <a class="nav-item active" href="#">Features <span class="sr-only">(current)</span></a>
+  <a class="nav-item" href="#">Pricing</a>
+  <a class="nav-item" href="#">Contact</a>
+  <button type="button" class="btn btn-outline-danger" id=nav-login-btn>Login</button>
+    
+  </nav>
+</div>
+  <!-- Features
   Pricing
   Contact
   Login
@@ -82,34 +106,34 @@
   answered please feel free to email us.
 
   <!-- Question 1 -->
-  What is Bookmark?
+  <!-- What is Bookmark? -->
 
   <!-- Answer 1 -->
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
-  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis. -->
 
   <!-- Question 2 -->
-  How can I request a new browser?
+  <!-- How can I request a new browser? -->
 
   <!-- Answer 2 -->
-  Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+  <!-- Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
   Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
   ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
-  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. -->
 
   <!-- Question 3 -->
-  Is there a mobile app?
+  <!-- Is there a mobile app? -->
 
   <!-- Answer 3 -->
-  Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+  <!-- Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
   urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
-  sollicitudin ex et ultricies bibendum.
+  sollicitudin ex et ultricies bibendum. -->
 
   <!-- Question 4 -->
-  What about other Chromium browsers?
+  <!-- What about other Chromium browsers? -->
 
   <!-- Answer 4 -->
-  Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+  <!-- Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
   vitae neque eget nisl gravida pellentesque non ut velit.
 
   More Info
@@ -123,12 +147,12 @@
   Features
   Pricing
   Contact
-  TEST
+  TEST --> 
   <footer>
-    <p class="attribution">
+    <!-- <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
-    </p>
+    </p> -->
   </footer>
 </body>
 </html>
